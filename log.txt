@@ -1,0 +1,66 @@
+Academic license - for non-commercial use only - expires 2023-03-11
+Using license file D:\Gurobilicense\gurobi.lic
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (win64)
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 1652 rows, 1983 columns and 12166 nonzeros
+Model fingerprint: 0x22ae65b6
+Model has 896 general constraints
+Variable types: 579 continuous, 1404 integer (1342 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [4e+00, 2e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolve added 40 rows and 0 columns
+Presolve removed 0 rows and 61 columns
+Presolve time: 0.06s
+Presolved: 1692 rows, 1922 columns, 11175 nonzeros
+Presolved model has 578 SOS constraint(s)
+Variable types: 826 continuous, 1096 integer (1056 binary)
+
+Root relaxation: objective 3.813970e+02, 501 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  381.39697    0   30          -  381.39697      -     -    0s
+     0     0  381.39697    0   30          -  381.39697      -     -    0s
+H    0     0                     630.1991491  381.39697  39.5%     -    0s
+     0     2  381.39697    0   30  630.19915  381.39697  39.5%     -    0s
+H  102   117                     615.4286774  381.39697  38.0%   7.2    0s
+H  128   197                     601.3520506  381.39697  36.6%   7.5    0s
+H  161   197                     585.9097878  381.39697  34.9%   7.1    0s
+H  303   335                     564.9192963  381.39697  32.5%   6.8    0s
+*  361   335              62     483.9430161  381.39697  21.2%   6.8    0s
+H  440   353                     483.9046113  381.39697  21.2%   6.8    0s
+*  489   348              56     478.8998891  381.39697  20.4%   6.7    0s
+H  519   462                     472.2131493  381.39697  19.2%   6.7    0s
+H  793   671                     450.9279866  381.39697  15.4%   7.2    0s
+H  937   774                     450.2341417  381.39697  15.3%   7.4    0s
+H 1150   765                     449.5866534  381.39697  15.2%   7.7    0s
+H 1247   817                     434.4164109  381.39697  12.2%   7.6    0s
+H 1689  1015                     428.1514957  381.39697  10.9%   7.7    1s
+H 1781  1002                     420.7709110  381.39697  9.36%   7.8    1s
+H 1894  1049                     420.3490864  381.39697  9.27%   7.7    1s
+H 2658  1161                     413.2405221  381.39697  7.71%   7.7    1s
+H 2815  1060                     409.3607717  381.39697  6.83%   7.6    1s
+H 5165  2269                     406.9756069  381.39697  6.29%   7.0    2s
+H 5717  2391                     406.5537824  381.39697  6.19%   7.0    2s
+H10028  4445                     406.1319578  381.39697  6.09%   6.7    3s
+ 16090  7001     cutoff   55       406.13196  381.39697  6.09%   6.7    5s
+H18905  7564                     405.7101333  381.39697  5.99%   6.7    5s
+ 37825 14174  399.61931   49   11  405.71013  381.39697  5.99%   6.3   10s
+ 58380 20673 infeasible   39       405.71013  381.39697  5.99%   6.2   15s
+ 80316 28761  394.65141   46   26  405.71013  381.39697  5.99%   6.2   20s
+ 101671 35768  385.98595   35   27  405.71013  381.39697  5.99%   6.2   25s
+
+Explored 122421 nodes (759986 simplex iterations) in 30.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 405.71 406.132 406.554 ... 434.416
+
+Solve interrupted
+Best objective 4.057101333030e+02, best bound 3.813969696197e+02, gap 5.9927%
+30.127728700637817
+
+Interrupt request received
